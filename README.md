@@ -4,6 +4,10 @@ Extra vehicles in GeoFS presented by JXT
 Current Version: 1.0
 Developer: AF267 (Discord: af267)
 
+## How To Use
+1. **Tampermonkey:** Via the Tampermonkey Chrome extension (https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en&pli=1), copy and paste main.js into a new script. It should automatically run when you open GeoFS.
+2. **Copy and Paste:** Directly copying and pasting main.js into the GeoFS console will also run the script.
+
 ## Version 1.0
 * Initial release
 * Added Aircraft:
