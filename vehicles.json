@@ -1,0 +1,76 @@
+{
+  "aircraft": [
+    {
+      "name": "McDonnell Douglas MD-11 (ADSB)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/md11_380019_5369/"
+    },
+    {
+      "name": "Cessna Citation CJ2 (ADSB)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/c25a_380019_5367/"
+    },
+    {
+      "name": "Eurocopter AS365 Dauphin (ADSB)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/heli_380019_5371/"
+    },
+    {
+      "name": "Embraer E190 (ADSB)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/e190_380019_5372/"
+    },
+    {
+      "name": "Paramotor (by AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/A160_267286_3007/"
+    },
+    {
+      "name": "Starship SN5 (by AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/P180Y_267286_3557/"
+    },
+    {
+      "name": "Piper PA-18 Super Cub (GeoFS)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/Piper%20XCub_380019_3226/"
+    },
+    {
+      "name": "Cessna 337 Super Skymaster (by Nightheart)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/Cessna%20Skymaster%20(Nightheart/Kitten-cat)_380019_4792/"
+    },
+    {
+      "name": "Hang Glider Belgium (by Johani)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/Hang%20Glider%20Belgium_380019_3111/"
+    }
+  ],
+  "groundVehicles": [
+    {
+      "name": "Food Service Truck (ADSB)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/truck_380019_5368/"
+    },
+    {
+      "name": "XTerra SUV (2024 APRIL FOOLS) (by AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/NeoAD XTerra_267286_4894/"
+    },
+    {
+      "name": "Sagittarius Hypercar (2025 APRIL FOOLS) (by AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/Steelbird Sagittarius Pulsar_267286_5155/"
+    }
+  ],
+  "miscellaneous": [
+    {
+      "name": "CMV Probability Megayacht (2025 APRIL FOOLS) (by AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/CMV Probability_267286_5009/"
+    },
+    {
+      "name": "Northtech RADIO (2025 APRIL FOOLS) (by AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/X2000BWB_267286_2329/"
+    },
+    {
+      "name": "Northtech UTOPIA (by AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/Northtech UTOPIA_267286_4136/"
+    },
+    {
+      "name": "Northtech ARCHANGEL (2023 APRIL FOOLS) (by AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/ARCHANGEL_267286_3974/"
+    },
+    {
+      "name": "Proximus Hovercraft (by AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/Proximus Hovercraft_267286_4644/"
+    }
+  ]
+}
