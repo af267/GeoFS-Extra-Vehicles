@@ -1,5 +1,5 @@
 {
-  "aircraft": [
+  "Aircraft": [
     {
       "name": "McDonnell Douglas MD-11 (ADSB)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/md11_380019_5369/"
@@ -37,7 +37,7 @@
       "url": "https://www.geo-fs.com/backend/aircraft/repository/Hang%20Glider%20Belgium_380019_3111/"
     }
   ],
-  "groundVehicles": [
+  "Ground Vehicles": [
     {
       "name": "Food Service Truck (ADSB)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/truck_380019_5368/"
@@ -51,7 +51,7 @@
       "url": "https://www.geo-fs.com/backend/aircraft/repository/Steelbird Sagittarius Pulsar_267286_5155/"
     }
   ],
-  "miscellaneous": [
+  "Miscellaneous": [
     {
       "name": "CMV Probability Megayacht (2025 APRIL FOOLS) (by AF267)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/CMV Probability_267286_5009/"
