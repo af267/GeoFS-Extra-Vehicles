@@ -1,7 +1,7 @@
 # GeoFS Extra Vehicles
 Extra vehicles in GeoFS presented by JXT
 
-Current Version: 1.1.0
+Current Version: 1.1.1
 Developer: AF267 (Discord: af267)
 
 ## How To Use
