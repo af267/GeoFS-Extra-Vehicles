@@ -21,6 +21,11 @@
       "id": 1018
     },
     {
+      "name": "Bombardier CRJ900 (ADSB)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/crj900_380019_5389/",
+      "id": 1016
+    },
+    {
       "name": "Paramotor (by AF267)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/A160_267286_3007/",
       "id": 50
@@ -31,7 +36,7 @@
       "id": 2000
     },
     {
-      "name": "Piper PA-18 Super Cub (GeoFS)",
+      "name": "Piper PA-18 Super Cub (by GeoFS & AF267)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/Piper%20XCub_380019_3226/",
       "id": 1
     },
@@ -49,6 +54,11 @@
       "name": "Sikorsky UH-60 Black Hawk (by Spice_9)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/Sikorsky UH-60 Black Hawk_380019_3068/",
       "id": 2806
+    },
+    {
+      "name": "Bombardier Challenger 650 (by Ryan Xu)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/c650_380019_5390/",
+      "id": 2706
     }
   ],
   "Ground Vehicles": [
@@ -98,6 +108,16 @@
       "name": "Boeing 747x (2025 APRIL FOOLS) (by AF267)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/WK2 testbed_267286_2783/",
       "id": 5193
+    },
+    {
+      "name": "Type 055 Destroyer (by MirageModels)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/type055_380019_5388/",
+      "id": 2000
+    },
+    {
+      "name": "Jetpack Wingsuit (by GeoFS & Nightheart)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/Jetpack_380019_5385/",
+      "id": 103
     }
   ]
 }
