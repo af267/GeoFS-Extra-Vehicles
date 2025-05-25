@@ -2,7 +2,7 @@
   "Aircraft": [
     {
       "name": "McDonnell Douglas MD-11 (ADSB)",
-      "url": "https://www.geo-fs.com/backend/aircraft/repository/md11_380019_5369/",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/md11_267286_5387/",
       "id": 1023
     },
     {
@@ -34,6 +34,11 @@
       "name": "Starship SN5 (by AF267)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/P180Y_267286_3557/",
       "id": 2000
+    },
+    {
+      "name": "Ilyushin Il-76TD (by AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/NK-V_267286_2525/",
+      "id": 1014
     },
     {
       "name": "Piper PA-18 Super Cub (by GeoFS & AF267)",
