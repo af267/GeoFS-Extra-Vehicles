@@ -64,6 +64,11 @@
       "name": "Bombardier Challenger 650 (by Ryan Xu)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/c650_380019_5390/",
       "id": 2706
+    },
+    {
+      "name": "Boeing 717-200 (by Plane2222222)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/717_380019_5380/",
+      "id": 1015
     }
   ],
   "Ground Vehicles": [
