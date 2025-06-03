@@ -1,0 +1,1 @@
+javascript:(() => {var extrasScript = document.createElement('script'); extrasScript.src="https://rawcdn.githack.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/main.js";document.body.appendChild(extrasScript);extrasScript.onload=(function(){});})()
