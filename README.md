@@ -10,6 +10,8 @@ Developer: AF267 (Discord: af267)
 2. **Copy and Paste:** Directly copying and pasting main.js into the GeoFS console will also run the script.
 3. **Bookmarklet:** Copy and paste the contents of bookmarklet.js into the URL of a bookmark. When flying, click on the bookmark.  NOTE: On Chrome in Android you have to type the name of the bookmark into the address bar and select the Bookmark from the list that is populated.
 
+## Version 1.1.4
+* Added bookmarklet.js.
 ## Version 1.1.3
 * Boeing 717-200 is added. This aircraft is set to officially release soon and will be removed from the addon when it is publicly released.
 ## More Credits
