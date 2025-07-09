@@ -92,11 +92,18 @@
       "ls": 0
     },
     {
-      "name": "Boeing 717-200 (by Plane2222222)",
-      "url": "https://www.geo-fs.com/backend/aircraft/repository/717_380019_5380/",
-      "id": 1015,
+      "name": "Airbus A400m (by Aero281)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/A400M_380019_5451/",
+      "id": 1013,
       "mp": "yellow",
-      "ls": 1
+      "ls": 0
+    },
+    {
+      "name": "Dassault nEUROn (by Aero281)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/nEUROn_380019_5452/",
+      "id": 2000,
+      "mp": "red",
+      "ls": 0
     }
   ],
   "Ground Vehicles": [
@@ -117,6 +124,13 @@
     {
       "name": "Sagittarius Hypercar (2025 APRIL FOOLS) (by AF267)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/Steelbird Sagittarius Pulsar_267286_5155/",
+      "id": 102,
+      "mp": "yellow",
+      "ls": 0
+    },
+    {
+      "name": "Mazda MX-5 Miata (by MirageModels)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/Miata_380019_5453/",
       "id": 102,
       "mp": "yellow",
       "ls": 0
@@ -199,6 +213,13 @@
       "name": "Airbus A380 (by GeoFS)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/a380_380019_5402/",
       "id": 1012,
+      "mp": "green",
+      "ls": 0
+    },
+    {
+      "name": "Concorde (by GeoFS)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/Concorde_380019_5450/",
+      "id": 20,
       "mp": "green",
       "ls": 0
     }
