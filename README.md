@@ -1,7 +1,7 @@
 # GeoFS Extra Vehicles
 Extra vehicles in GeoFS presented by JXT. This addon includes extra vehicles such as the MD-11, food service truck, IL-76, and the Northtech RADIO (April Fools UFO).
 
-Current Version: 1.2.1
+Current Version: 1.2.2
 
 Developer: AF267 (Discord: af267)
 
@@ -10,10 +10,10 @@ Developer: AF267 (Discord: af267)
 2. **Copy and Paste (easiest):** Directly copying and pasting main.js into the GeoFS console will also run the script.
 3. **Bookmarking (best for mobile):** Copy the bookmarklet.js script into the new bookmark added. See 1:30 of this video: https://www.youtube.com/watch?v=OfpHJudRFko
 
-## Version 1.2.1
-* Legacy Aero281 aircraft (A400M, nEUROn) added
-* MirageModels Miata added
-* Archive Concorde added
+## Version 1.2.2
+* Boeing 777-200ER by MirageModels added
+* DC-3 based Il-14 added (cockpit broken)
+* Archive Su-35 & Cub (cockpit broken) added
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
 ## Information
