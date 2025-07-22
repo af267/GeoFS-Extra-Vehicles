@@ -118,6 +118,13 @@
       "id": 1005,
       "mp": "yellow",
       "ls": 1
+    },
+    {
+      "name": "Boeing 777-200 (by MirageModels)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/772_380019_5501/",
+      "id": 1005,
+      "mp": "yellow",
+      "ls": 1
     }
   ],
   "Ground Vehicles": [
