@@ -114,10 +114,10 @@
     },
     {
       "name": "Boeing 777-200ER (by MirageModels)",
-      "url": "https://www.geo-fs.com/backend/aircraft/repository/Boeing%20777-200ER_448101_5460/",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/77e_380019_5500/",
       "id": 1005,
       "mp": "yellow",
-      "ls": 0
+      "ls": 1
     }
   ],
   "Ground Vehicles": [
