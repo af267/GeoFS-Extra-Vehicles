@@ -11,7 +11,7 @@ Developer: AF267 (Discord: af267)
 3. **Bookmarking (best for mobile):** Copy the bookmarklet.js script into the new bookmark added. See 1:30 of this video: https://www.youtube.com/watch?v=OfpHJudRFko
 
 ## Version 1.2.2
-* Boeing 777-200ER by MirageModels added
+* Boeing 777-200/ER by MirageModels added
 * DC-3 based Il-14 added (cockpit broken)
 * Archive Su-35 & Cub (cockpit broken) added
 ## More Credits
