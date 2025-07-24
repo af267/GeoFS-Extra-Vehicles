@@ -57,8 +57,15 @@
       "ls": 1
     },
     {
+      "name": "ATR 42-600 (by AF267 & Luca)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/P134_267286_5506/",
+      "id": 1013,
+      "mp": "green",
+      "ls": 0
+    },
+    {
       "name": "Piper PA-18 Super Cub (by GeoFS & AF267)",
-      "url": "https://www.geo-fs.com/backend/aircraft/repository/Piper%20XCub_380019_3226/",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/pa18_380019_5507/",
       "id": 1,
       "mp": "green",
       "ls": 1
@@ -151,9 +158,16 @@
     },
     {
       "name": "Mazda MX-5 Miata (by MirageModels)",
-      "url": "https://www.geo-fs.com/backend/aircraft/repository/Miata_380019_5453/",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/miata2_380019_5509/",
       "id": 102,
       "mp": "yellow",
+      "ls": 0
+    },
+    {
+      "name": "Budd Metroliner (by Plane2222222)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/metroliner_380019_5463/",
+      "id": 2000,
+      "mp": "red",
       "ls": 0
     }
   ],
