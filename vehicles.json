@@ -121,16 +121,37 @@
     },
     {
       "name": "Boeing 777-200ER (by MirageModels)",
-      "url": "https://www.geo-fs.com/backend/aircraft/repository/77e_380019_5500/",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/72e_380019_5519/",
       "id": 1005,
       "mp": "yellow",
       "ls": 1
     },
     {
       "name": "Boeing 777-200 (by MirageModels)",
-      "url": "https://www.geo-fs.com/backend/aircraft/repository/772_380019_5501/",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/72_380019_5518/",
       "id": 1005,
       "mp": "yellow",
+      "ls": 1
+    },
+    {
+      "name": "Boeing 777-200LR (by MirageModels)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/Boeing%20777-200LR_448101_5513/",
+      "id": 1004,
+      "mp": "yellow",
+      "ls": 1
+    },
+    {
+      "name": "Boeing 777-F (by MirageModels)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/Boeing%20777F_448101_5515/",
+      "id": 4402,
+      "mp": "green",
+      "ls": 1
+    },
+    {
+      "name": "Airbus A350-1000 XWB (by NS-Studios)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/a35kc_267286_5514/",
+      "id": 2973,
+      "mp": "green",
       "ls": 1
     }
   ],
