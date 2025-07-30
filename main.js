@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GeoFS Extra Vehicles
-// @version      1.2
+// @version      1.3
 // @description  Adds extra vehicles to GeoFS
 // @author       AF267
 // @match        https://geo-fs.com/geofs.php*
@@ -75,6 +75,18 @@
                 } else if (item.mp === "red") {
                     mpIcon.src = "https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/red.png";
                 }
+                // this part is new, comment out if needed
+                else if (item.mp === "addon") {
+                    mpIcon.src = "https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/addon.png";
+                    geofs.aircraftList[item.id] = {
+                        id: item.id,
+                        community: 1,
+                        multiplayerFiles: "",
+                        name: item.name,
+                        path: item.url
+                    }
+                }
+                // end new part
 
                 itemContent.appendChild(mpIcon);
             }
@@ -109,11 +121,13 @@
         const aboutContent = document.createElement("ul");
         aboutContent.className = "geofs-collapsible";
         aboutContent.innerHTML = `
-            <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.2</h4></a>
+            <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.3</h4></a>
             <p>GeoFS Extra Vehicles is a privately maintained addon not associated with GeoFS.</p>
             <p>GeoFS Extra Vehicles is an addon developed by AF267 that adds external vehicles from JAaMDG's JXT Group as well as unreleased projects into the simulator.</p>
             <h5>Multiplayer Models</h5>
             <span><img src="https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/green.png" style="width: 24px; height: auto; margin: 8px">Multiplayer model supported</span>
+            <br/>
+            <span><img src="https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/addon.png" style="width: 24px; height: auto; margin: 8px">Multiplayer model only supported via addon</span>
             <br/>
             <span><img src="https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/yellow.png" style="width: 24px; height: auto; margin: 8px">Multiplayer model shows, but of another similar vehicle</span>
             <br/>
@@ -209,7 +223,7 @@
                         <li data-url="https://www.geo-fs.com/backend/aircraft/repository/Hang%20Glider%20Belgium_380019_3111/" data-mpid="50">Hang Glider Belgium (by Johani)</li>
                         <li data-url="https://www.geo-fs.com/backend/aircraft/repository/Sikorsky UH-60 Black Hawk_380019_3068/" data-mpid="2806">Sikorsky UH-60 Black Hawk (by Spice_9)</li>
                         <li data-url="https://www.geo-fs.com/backend/aircraft/repository/c650_380019_5390/" data-mpid="2706">Bombardier Challenger 650 (by Ryan Xu)</li>
-                        <li data-url="https://www.geo-fs.com/backend/aircraft/repository/717_380019_5380/" data-mpid="1015">Boeing 717-200 (by Plane2222222)</li>
+                        <li data-url="https://www.geo-fs.com/backend/aircraft/repository/72e_380019_5519/" data-mpid="1005">Boeing 777-200ER (by MirageModels)</li>
                     </ul>
                 </li>
                 <li class="geofs-list-collapsible-item">
@@ -218,6 +232,7 @@
                         <li data-url="https://www.geo-fs.com/backend/aircraft/repository/truck_380019_5368/" data-mpid="1027">Food Service Truck (ADSB)</li>
                         <li data-url="https://www.geo-fs.com/backend/aircraft/repository/NeoAD XTerra_267286_4894/" data-mpid="1027">XTerra SUV (2024 APRIL FOOLS) (by AF267)</li>
                         <li data-url="https://www.geo-fs.com/backend/aircraft/repository/Steelbird Sagittarius Pulsar_267286_5155/" data-mpid="102">Sagittarius Hypercar (2025 APRIL FOOLS) (by AF267)</li>
+                        <li data-url="https://www.geo-fs.com/backend/aircraft/repository/miata2_380019_5509/" data-mpid="102">Mazda MX-5 Miata (by MirageModels)</li>
                     </ul>
                 </li>
                 <li class="geofs-list-collapsible-item">
@@ -244,11 +259,13 @@
                 <li class="geofs-list-collapsible-item">
                     About
                     <ul class="geofs-collapsible">
-                        <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.2</h4></a>
+                        <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.3</h4></a>
                         <p>GeoFS Extra Vehicles is a privately maintained addon not associated with GeoFS.</p>
                         <p>GeoFS Extra Vehicles is an addon developed by AF267 that adds external vehicles from JAaMDG's JXT Group as well as unreleased projects into the simulator.</p>
                         <h5>Multiplayer Models</h5>
                         <span><img src="https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/green.png" style="width: 24px; height: auto; margin: 8px">Multiplayer model supported</span>
+                        <br/>
+                        <span><img src="https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/addon.png" style="width: 24px; height: auto; margin: 8px">Multiplayer model only supported via addon</span>
                         <br/>
                         <span><img src="https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/yellow.png" style="width: 24px; height: auto; margin: 8px">Multiplayer model shows, but of another similar vehicle</span>
                         <br/>
