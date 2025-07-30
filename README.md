@@ -1,7 +1,7 @@
 # GeoFS Extra Vehicles
 Extra vehicles in GeoFS presented by JXT. This addon includes extra vehicles such as the MD-11, food service truck, IL-76, and the Northtech RADIO (April Fools UFO).
 
-Current Version: 1.2.4
+Current Version: 1.3
 
 Developer: AF267 (Discord: af267)
 
@@ -10,10 +10,8 @@ Developer: AF267 (Discord: af267)
 2. **Copy and Paste (easiest):** Directly copying and pasting main.js into the GeoFS console will also run the script.
 3. **Bookmarking (best for mobile):** Copy the bookmarklet.js script into the new bookmark added. See 1:30 of this video: https://www.youtube.com/watch?v=OfpHJudRFko
 
-## Version 1.2.4
-* Boeing 777-200/ER updated to fix physics and shading
-* Boeing 777-200LR/F added
-* New Airbus A350-1000 by NS-Studios with official A359 cockpit. (All credit still goes to Nightshade. This was the only way we could directly add a cockpit to this plane.)
+## Version 1.3.0
+* Multiplayer support for anyone with the addon for aircraft marked with a green "A".
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
 ## Information
