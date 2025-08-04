@@ -10,8 +10,10 @@ Developer: AF267 (Discord: af267)
 2. **Copy and Paste (easiest):** Directly copying and pasting main.js into the GeoFS console will also run the script.
 3. **Bookmarking (best for mobile):** Copy the bookmarklet.js script into the new bookmark added. See 1:30 of this video: https://www.youtube.com/watch?v=OfpHJudRFko
 
-## Version 1.3.0
-* Multiplayer support for anyone with the addon for aircraft marked with a green "A".
+## Version 1.3.1
+* Boeing 737-900/ER by Spice_9 and Luca added
+* Kolkata-Class Destroyer by Spice_9 added
+* Both are addon multiplayer supported
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
 ## Information
