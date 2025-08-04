@@ -99,6 +99,13 @@
       "ls": 0
     },
     {
+      "name": "Boeing 737-900 (by Spice_9 & Luca)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/739_380019_5535/",
+      "id": 1001,
+      "mp": "addon",
+      "ls": 1
+    },
+    {
       "name": "Bombardier Challenger 650 (by Ryan Xu)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/c650_380019_5390/",
       "id": 1015,
@@ -247,6 +254,13 @@
       "url": "https://www.geo-fs.com/backend/aircraft/repository/Jetpack_380019_5385/",
       "id": 103,
       "mp": "green",
+      "ls": 0
+    },
+    {
+      "name": "Project 15A Kolkata-Class Destroyer (by Spice_9)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/kolkata_380019_5536/",
+      "id": 1003,
+      "mp": "addon",
       "ls": 0
     }
   ],
