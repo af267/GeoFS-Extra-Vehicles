@@ -10,12 +10,13 @@ Developer: AF267 (Discord: af267)
 2. **Copy and Paste (easiest):** Directly copying and pasting main.js into the GeoFS console will also run the script.
 3. **Bookmarking (best for mobile):** Copy the bookmarklet.js script into the new bookmark added. See 1:30 of this video: https://www.youtube.com/watch?v=OfpHJudRFko
 
-## Version 1.3.1
-* Boeing 737-900/ER by Spice_9 and Luca added
-* Kolkata-Class Destroyer by Spice_9 added
-* Both are addon multiplayer supported
+## Version 1.3.2
+* E190 model and animation upgrade
+* Boeing 747-8F by Luca added
+* Siemens S70 LRV by plane2222222 added
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
+* E190 cockpit by AriakimTaiyo
 ## Information
 This project is under the MIT License. Public usage and copying of the code is ONLY ALLOWED with PROPER CREDIT given to AF267 on behalf of JAaMDG and the JXT Group.
 
