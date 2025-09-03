@@ -23,7 +23,7 @@
     },
     {
       "name": "Embraer E190 (ADSB)",
-      "url": "https://www.geo-fs.com/backend/aircraft/repository/e190_380019_5372/",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/e190_267286_5602/",
       "id": 1018,
       "mp": "green",
       "ls": 1
@@ -60,6 +60,13 @@
       "name": "ATR 42-600 (by AF267 & Luca)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/P134_267286_5506/",
       "id": 1013,
+      "mp": "addon",
+      "ls": 0
+    },
+    {
+      "name": "Boeing 747-8F (by AF267 & Luca)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/p19f_267286_5606/",
+      "id": 252,
       "mp": "addon",
       "ls": 0
     },
@@ -194,6 +201,13 @@
     {
       "name": "Budd Metroliner (by Plane2222222)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/metroliner_380019_5463/",
+      "id": 2000,
+      "mp": "red",
+      "ls": 0
+    },
+    {
+      "name": "Siemens S70 (by Plane2222222)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/s70_380019_5607/",
       "id": 2000,
       "mp": "red",
       "ls": 0
