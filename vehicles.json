@@ -137,14 +137,14 @@
       "name": "Boeing 777-200ER (by MirageModels)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/72e_380019_5519/",
       "id": 1005,
-      "mp": "yellow",
+      "mp": "addon",
       "ls": 1
     },
     {
       "name": "Boeing 777-200 (by MirageModels)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/72_380019_5518/",
       "id": 1005,
-      "mp": "yellow",
+      "mp": "addon",
       "ls": 1
     },
     {
