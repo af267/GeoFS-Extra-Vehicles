@@ -1,8 +1,10 @@
 // ==UserScript==
 // @name         GeoFS Extra Vehicles
-// @version      1.3
+// @version      1.4
 // @description  Adds extra vehicles to GeoFS
 // @author       AF267
+// @updateURL    https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/main.js
+// @downloadURL  https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/main.js
 // @match        https://geo-fs.com/geofs.php*
 // @match        https://*.geo-fs.com/geofs.php*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=geo-fs.com
@@ -53,6 +55,8 @@
 
         const sublist = document.createElement("ul");
         sublist.className = "geofs-collapsible";
+
+        items.sort((a, b) => a.name.localeCompare(b.name, undefined, { sensitivity: 'base' })); // alphabetical sorting
 
         items.forEach(item => {
             const li = document.createElement("li");
@@ -121,7 +125,7 @@
         const aboutContent = document.createElement("ul");
         aboutContent.className = "geofs-collapsible";
         aboutContent.innerHTML = `
-            <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.3</h4></a>
+            <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.4</h4></a>
             <p>GeoFS Extra Vehicles is a privately maintained addon not associated with GeoFS.</p>
             <p>GeoFS Extra Vehicles is an addon developed by AF267 that adds external vehicles from JAaMDG's JXT Group as well as unreleased projects into the simulator.</p>
             <h5>Multiplayer Models</h5>
@@ -142,13 +146,13 @@
         extrasPanel.appendChild(aboutSection);
     }
 
-    function loadAircraftFromUrl(baseUrl, mpID) {
+    function loadAircraftFromUrl(baseUrl, mpID, name) {
         $.ajax(baseUrl + "aircraft.json", {
             dataType: "text",
             success: function (jsonText) {
                 var customRecord = {
                     id: "custom_" + Date.now(),
-                    name: "Custom Aircraft",
+                    name: name,
                     fullPath: baseUrl,
                     isPremium: false,
                     isCommunity: false,
@@ -184,7 +188,8 @@
         if (li) {
             const url = li.getAttribute("data-url");
             const mpID = li.getAttribute("data-mpid");
-            loadAircraftFromUrl(url, mpID);
+            const name = li.textContent || li.innerText;
+            loadAircraftFromUrl(url, mpID, name);
         }
     });
 
@@ -205,7 +210,7 @@
                 <div style="display: flex; align-items: center; gap: 10px; padding-left: 20px;">
                     <img src="https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/JXT%20Logo.png" style="width: 100px; height: auto;" />
                     <h4 style="margin: 0;">GeoFS Extra Vehicles</h4>
-                    <p>Error: Too many requests to GitHub. Could not load latest JSON data. Last updated vehicles:
+                    <p>Error: Too many requests to GitHub. Could not load latest JSON data. Incomplete list of vehicles.
                 </div>
                 <li class="geofs-list-collapsible-item">
                     Aircraft
@@ -259,7 +264,7 @@
                 <li class="geofs-list-collapsible-item">
                     About
                     <ul class="geofs-collapsible">
-                        <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.3</h4></a>
+                        <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.4</h4></a>
                         <p>GeoFS Extra Vehicles is a privately maintained addon not associated with GeoFS.</p>
                         <p>GeoFS Extra Vehicles is an addon developed by AF267 that adds external vehicles from JAaMDG's JXT Group as well as unreleased projects into the simulator.</p>
                         <h5>Multiplayer Models</h5>
