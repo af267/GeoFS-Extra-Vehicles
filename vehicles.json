@@ -85,6 +85,13 @@
       "ls": 1
     },
     {
+      "name": "Boeing 777-9X (by GeoFS & AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/777x_267286_5635/",
+      "id": 1005,
+      "mp": "addon",
+      "ls": 1
+    },
+    {
       "name": "Cessna 337 Super Skymaster (by Nightheart)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/Cessna%20Skymaster%20(Nightheart/Kitten-cat)_380019_4792/",
       "id": 1022,
@@ -275,6 +282,13 @@
       "url": "https://www.geo-fs.com/backend/aircraft/repository/kolkata_380019_5536/",
       "id": 1003,
       "mp": "addon",
+      "ls": 0
+    },
+    {
+      "name": "'Weather Balloon' (by [AIRFRANCEHEAVY])",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/balloon_380019_5647/",
+      "id": 2000,
+      "mp": "red",
       "ls": 0
     }
   ],
