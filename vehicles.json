@@ -23,7 +23,7 @@
     },
     {
       "name": "Embraer E190 (ADSB)",
-      "url": "https://www.geo-fs.com/backend/aircraft/repository/e190_267286_5602/",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/embraer_267286_5681/",
       "id": 1018,
       "mp": "green",
       "ls": 1
@@ -117,6 +117,13 @@
       "url": "https://www.geo-fs.com/backend/aircraft/repository/739_380019_5535/",
       "id": 1001,
       "mp": "addon",
+      "ls": 1
+    },
+    {
+      "name": "Airbus A320-100 (by Spice_9 & Luca)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/a320_267286_5683/",
+      "id": 3534,
+      "mp": "green",
       "ls": 1
     },
     {
@@ -265,7 +272,7 @@
     },
     {
       "name": "Type 055 Destroyer (by MirageModels)",
-      "url": "https://www.geo-fs.com/backend/aircraft/repository/type055_380019_5388/",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/t055_267286_5682/",
       "id": 1024,
       "mp": "addon",
       "ls": 0
