@@ -10,11 +10,14 @@ Developer: AF267 (Discord: af267)
 2. **Copy and Paste (easiest):** Directly copying and pasting main.js into the GeoFS console will also run the script.
 3. **Bookmarking (best for mobile):** Copy the bookmarklet.js script into the new bookmark added. See 1:30 of this video: https://www.youtube.com/watch?v=OfpHJudRFko
 
-## Version 1.4.0
-* Boeing 777-9X added
-* "Weather Balloon" by AFH added
+## Version 1.4
 * Aircraft list now alphabetically sorted
 * Aircraft names properly show up on Flightradar ATC addon
+### 1.4.1
+* Airbus A320-100 added
+* E190 cabin and tail light updated
+* Type 055 Destroyer fixed
+  
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
 * E190 cockpit by AriakimTaiyo
