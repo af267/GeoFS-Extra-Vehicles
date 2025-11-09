@@ -271,6 +271,13 @@
       "ls": 1
     },
     {
+      "name": "Concorde Duplex (by AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/duplex_267286_5715/",
+      "id": 1000,
+      "mp": "addon",
+      "ls": 1
+    },
+    {
       "name": "Type 055 Destroyer (by MirageModels)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/t055_267286_5682/",
       "id": 1024,
@@ -294,6 +301,13 @@
     {
       "name": "'Weather Balloon' (by [AIRFRANCEHEAVY])",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/balloon_380019_5647/",
+      "id": 2000,
+      "mp": "red",
+      "ls": 0
+    },
+    {
+      "name": "Type 052D Missile Destroyer (by randompersonintheworld)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/t052_267286_5719/",
       "id": 2000,
       "mp": "red",
       "ls": 0
