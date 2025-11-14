@@ -127,6 +127,13 @@
       "ls": 1
     },
     {
+      "name": "Boeing KC-135R Stratotanker (by Spice_9 & AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/kc135_267286_5727/",
+      "id": 2003,
+      "mp": "addon",
+      "ls": 1
+    },
+    {
       "name": "Bombardier Challenger 650 (by Ryan Xu)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/c650_380019_5390/",
       "id": 1015,
@@ -174,6 +181,13 @@
       "id": 4402,
       "mp": "green",
       "ls": 1
+    },
+    {
+      "name": "Embraer E175 (by plane2222222)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/e175_267286_5741/",
+      "id": 3341,
+      "mp": "yellow",
+      "ls": 0
     },
     {
       "name": "Airbus A350-1000 XWB (by NS-Studios)",
