@@ -13,9 +13,9 @@ Developer: AF267 (Discord: af267)
 ## Version 1.4
 * Aircraft list now alphabetically sorted
 * Aircraft names properly show up on Flightradar ATC addon
-### 1.4.2
-* Concorde Duplex added
-* Type 052D added
+### 1.4.3
+* E175 added
+* KC-135R added
   
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
