@@ -134,6 +134,13 @@
       "ls": 1
     },
     {
+      "name": "Tupolev Tu-204-100 (by Spice_9 & AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/tu204_267286_5777/",
+      "id": 242,
+      "mp": "addon",
+      "ls": 1
+    },
+    {
       "name": "Bombardier Challenger 650 (by Ryan Xu)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/c650_380019_5390/",
       "id": 1015,
@@ -188,6 +195,13 @@
       "id": 2973,
       "mp": "green",
       "ls": 1
+    },
+    {
+      "name": "Beta Alia A250 (by coolpilot11 & AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/a250_267286_5761/",
+      "id": 5002,
+      "mp": "green",
+      "ls": 0
     }
   ],
   "Ground Vehicles": [
@@ -211,6 +225,13 @@
       "id": 1026,
       "mp": "addon",
       "ls": 0
+    },
+    {
+      "name": "Budd Metroliner (by AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/metroliner_267286_5772/",
+      "id": 5772,
+      "mp": "red",
+      "ls": 1
     },
     {
       "name": "Mazda MX-5 Miata (by MirageModels)",
@@ -269,6 +290,13 @@
       "id": 1000,
       "mp": "addon",
       "ls": 1
+    },
+    {
+      "name": "Airbus A370-800 (by GeoFS & AF267)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/a378_267286_5757/",
+      "id": 24,
+      "mp": "yellow",
+      "ls": 0
     },
     {
       "name": "Type 055 Destroyer (by MirageModels)",
