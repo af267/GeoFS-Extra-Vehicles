@@ -13,9 +13,11 @@ Developer: AF267 (Discord: af267)
 ## Version 1.4
 * Aircraft list now alphabetically sorted
 * Aircraft names properly show up on Flightradar ATC addon
-### 1.4.3
-* E175 added
-* KC-135R added
+### 1.4.4
+* Beta Alia A250 VTOL added
+* Tu-204-100 added
+* Budd Metroliner reworked (MUST TRY!)
+* Airbus A370 MegaTwin concept added
   
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
