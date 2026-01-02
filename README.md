@@ -13,11 +13,10 @@ Developer: AF267 (Discord: af267)
 ## Version 1.4
 * Aircraft list now alphabetically sorted
 * Aircraft names properly show up on Flightradar ATC addon
-### 1.4.4
-* Beta Alia A250 VTOL added
-* Tu-204-100 added
-* Budd Metroliner reworked (MUST TRY!)
-* Airbus A370 MegaTwin concept added
+### 1.4.5
+* Nova Bus LFS by Mirage added
+* Zumwalt and Permit by Mirage added
+* A350-1000 rework with livery compatibility update
   
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
