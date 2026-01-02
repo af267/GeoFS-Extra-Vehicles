@@ -191,7 +191,7 @@
     },
     {
       "name": "Airbus A350-1000 XWB (by NS-Studios)",
-      "url": "https://www.geo-fs.com/backend/aircraft/repository/a35kc_267286_5514/",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/a35k0_267286_5805/",
       "id": 2973,
       "mp": "green",
       "ls": 1
@@ -238,6 +238,13 @@
       "url": "https://www.geo-fs.com/backend/aircraft/repository/miata2_380019_5509/",
       "id": 5509,
       "mp": "addon",
+      "ls": 0
+    },
+    {
+      "name": "Nova Bus LFS (by MirageModels)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/novabus_267286_5807/",
+      "id": 1027,
+      "mp": "red",
       "ls": 0
     }
   ],
@@ -306,6 +313,20 @@
       "ls": 0
     },
     {
+      "name": "Permit-Class Submarine (by MirageModels)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/permit_267286_5808/",
+      "id": 1003,
+      "mp": "yellow",
+      "ls": 0
+    },
+    {
+      "name": "Zumwalt-Class Destroyer (by MirageModels)",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/zumwalt_267286_5809/",
+      "id": 1024,
+      "mp": "yellow",
+      "ls": 0
+    },
+    {
       "name": "Jetpack Wingsuit (by GeoFS & Nightheart)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/Jetpack_380019_5385/",
       "id": 103,
@@ -329,8 +350,8 @@
     {
       "name": "Type 052D Missile Destroyer (by randompersonintheworld)",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/t052_267286_5719/",
-      "id": 2000,
-      "mp": "red",
+      "id": 1024,
+      "mp": "yellow",
       "ls": 0
     }
   ],
