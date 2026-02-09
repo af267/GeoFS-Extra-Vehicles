@@ -13,10 +13,8 @@ Developer: AF267 (Discord: af267)
 ## Version 1.4
 * Aircraft list now alphabetically sorted
 * Aircraft names properly show up on Flightradar ATC addon
-### 1.4.5
-* Nova Bus LFS by Mirage added
-* Zumwalt and Permit by Mirage added
-* A350-1000 rework with livery compatibility update
+### 1.4.6
+* A340-300 based Il-96 added (connected to A340's liveries)
   
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
