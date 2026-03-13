@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GeoFS Extra Vehicles
-// @version      1.4
+// @version      1.5
 // @description  Adds extra vehicles to GeoFS
 // @author       AF267
 // @updateURL    https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/main.js
@@ -11,9 +11,26 @@
 // @grant        none
 // ==/UserScript==
 
+
 (function () {
     'use strict';
-    console.log("Extras script running...");
+    console.log("GeoFS Extra Vehicles v1.5");
+
+    // reload from error
+    const savedState = localStorage.getItem("geofs_extras_last_state");
+    const url = window.location.href;
+
+    if ((!url.startsWith("https://www.geo-fs.com/fly?a=") && !url.startsWith("https://www.geo-fs.com/geofs.php?a=")) && savedState) {
+
+        const data = JSON.parse(savedState);
+        setTimeout(() => {
+            loadAircraftFromUrl(data.aircraftUrl, data.aircraftId, data.aircraftName);
+            setTimeout(() => {
+                geofs.flyTo([data.lat, data.lon, data.alt, data.heading, true]);
+            }, 1000);
+        }, 2000);
+
+    }
 
     // ALWAYS CHANGE BACK TO THIS:
     // https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/vehicles.json
@@ -107,6 +124,16 @@
                 itemContent.appendChild(lsIcon);
             }
 
+            if (item.author) {
+                const authorLine = document.createElement("small");
+                authorLine.style.display = "block";
+                authorLine.style.lineHeight = "10px";
+                authorLine.style.marginBottom = "15px";
+                authorLine.style.color = "gray";
+                authorLine.textContent = item.author;
+                itemContent.appendChild(authorLine);
+            }
+
             li.appendChild(itemContent);
 
             sublist.appendChild(li);
@@ -125,7 +152,7 @@
         const aboutContent = document.createElement("ul");
         aboutContent.className = "geofs-collapsible";
         aboutContent.innerHTML = `
-            <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.4</h4></a>
+            <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.5</h4></a>
             <p>GeoFS Extra Vehicles is a privately maintained addon not associated with GeoFS.</p>
             <p>GeoFS Extra Vehicles is an addon developed by AF267 that adds external vehicles from JAaMDG's JXT Group as well as unreleased projects into the simulator.</p>
             <h5>Multiplayer Models</h5>
@@ -137,10 +164,10 @@
             <br/>
             <span><img src="https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/red.png" style="width: 24px; height: auto; margin: 8px">Multiplayer model not supported</span>
             <br/>
-            <span><img src="https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/ls-logo.png" style="width: 24px; height: auto; margin: 8px">Compatible with <a src="https://github.com/kolos26/GEOFS-LiverySelector" target="_blank">LiverySelector</a> (must be enabled, does not guarantee multiplayer liveries supported)</span>
+            <span><img src="https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/ls-logo.png" style="width: 24px; height: auto; margin: 8px">Compatible with <a src="https://github.com/kolos26/GEOFS-LiverySelector" target="_blank">LiverySelector</a> (not guaranteed liveries present)</span>
             <p>If you have any questions or if you have an aircraft (must have a working aircraft.json) you would like to add, visit the JAaMDG Discord</p>
             <a href="https://discord.gg/fcFQH6Qhb7" target="_blank" rel="nofollow"><img src="https://www.geo-fs.com/images/discord.png" style="margin: 10px 10px 10px 0px;"/></a>
-            <p>Copyright © AF267 - 2025</p>
+            <p>Copyright © AF267 - 2026</p>
         `;
         aboutSection.appendChild(aboutContent);
         extrasPanel.appendChild(aboutSection);
@@ -190,6 +217,30 @@
             const mpID = li.getAttribute("data-mpid");
             const name = li.textContent || li.innerText;
             loadAircraftFromUrl(url, mpID, name);
+        }
+    });
+
+    // save aircraft and location
+    window.addEventListener("beforeunload", function () {
+        if (geofs && geofs.aircraft && geofs.aircraft.instance) {
+            // gear down?
+            const groundAlt = geofs.api.getGroundAltitude(geofs.aircraft.instance.llaLocation);
+            const correctedAlt = geofs.aircraft.instance.llaLocation[2] - geofs.aircraft.instance.definition.startAltitude;
+            let altToSave = geofs.aircraft.instance.llaLocation[2];
+            if (Math.abs(correctedAlt - groundAlt) <= 5) {
+                altToSave = 0;
+            }
+            const saveData = {
+                lat: geofs.aircraft.instance.llaLocation[0],
+                lon: geofs.aircraft.instance.llaLocation[1],
+                alt: altToSave,
+                heading: geofs.aircraft.instance.htr[0],
+
+                aircraftUrl: geofs.aircraft.instance.fullPath,
+                aircraftId: geofs.aircraft.instance.id,
+                aircraftName: geofs.aircraft.instance.aircraftRecord.name
+            };
+            localStorage.setItem("geofs_extras_last_state", JSON.stringify(saveData));
         }
     });
 
@@ -264,7 +315,7 @@
                 <li class="geofs-list-collapsible-item">
                     About
                     <ul class="geofs-collapsible">
-                        <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.4</h4></a>
+                        <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.5</h4></a>
                         <p>GeoFS Extra Vehicles is a privately maintained addon not associated with GeoFS.</p>
                         <p>GeoFS Extra Vehicles is an addon developed by AF267 that adds external vehicles from JAaMDG's JXT Group as well as unreleased projects into the simulator.</p>
                         <h5>Multiplayer Models</h5>
