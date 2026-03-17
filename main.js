@@ -14,21 +14,24 @@
 
 (function () {
     'use strict';
-    console.log("GeoFS Extra Vehicles v1.5");
+    console.log("Extras script running...");
 
     // reload from error
     const savedState = localStorage.getItem("geofs_extras_last_state");
     const url = window.location.href;
+    const jsonUrl = localStorage.getItem("json_url");
 
     if ((!url.startsWith("https://www.geo-fs.com/fly?a=") && !url.startsWith("https://www.geo-fs.com/geofs.php?a=")) && savedState) {
 
         const data = JSON.parse(savedState);
-        setTimeout(() => {
-            loadAircraftFromUrl(data.aircraftUrl, data.aircraftId, data.aircraftName);
+        if(data.aircraftUrl == jsonUrl){
             setTimeout(() => {
-                geofs.flyTo([data.lat, data.lon, data.alt, data.heading, true]);
-            }, 1000);
-        }, 2000);
+                loadAircraftFromUrl(data.aircraftUrl, data.aircraftId, data.aircraftName);
+                setTimeout(() => {
+                    geofs.flyTo([data.lat, data.lon, data.alt, data.heading, true]);
+                }, 1000);
+            }, 2000);
+        }
 
     }
 
@@ -216,6 +219,7 @@
             const url = li.getAttribute("data-url");
             const mpID = li.getAttribute("data-mpid");
             const name = li.textContent || li.innerText;
+            localStorage.setItem("json_url", url);
             loadAircraftFromUrl(url, mpID, name);
         }
     });
@@ -330,7 +334,7 @@
                         <span><img src="https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/ls-logo.png" style="width: 24px; height: auto; margin: 8px">Compatible with <a src="https://github.com/kolos26/GEOFS-LiverySelector" target="_blank">LiverySelector</a> (must be enabled, does not guarantee multiplayer liveries supported)</span>
                         <p>If you have any questions or if you have an aircraft (must have a working aircraft.json) you would like to add, visit the JAaMDG Discord</p>
                         <a href="https://discord.gg/fcFQH6Qhb7" target="_blank" rel="nofollow"><img src="https://www.geo-fs.com/images/discord.png" style="margin: 10px 10px 10px 0px;"/></a>
-                        <p>Copyright © AF267 - 2025</p>
+                        <p>Copyright © AF267 - 2026</p>
                     </ul>
                 </li>
             `;
