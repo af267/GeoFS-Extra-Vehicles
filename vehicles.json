@@ -105,6 +105,14 @@
       "ls": 1
     },
     {
+      "name": "Cessna R182 RG",
+      "author": "GeoFS & AF267",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/c182rg_267286_5916/",
+      "id": 2,
+      "mp": "green",
+      "ls": 1
+    },
+    {
       "name": "Cessna 337 Super Skymaster",
       "author": "Nightheart",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/Cessna%20Skymaster%20(Nightheart/Kitten-cat)_380019_4792/",
@@ -197,6 +205,14 @@
       "author": "Aero281, AF267, & Luca",
       "url": "https://www.geo-fs.com/backend/aircraft/repository/il94_267286_5887/",
       "id": 2951,
+      "mp": "yellow",
+      "ls": 1
+    },
+    {
+      "name": "Airbus A300-600",
+      "author": "Aero281 & AF267",
+      "url": "https://www.geo-fs.com/backend/aircraft/repository/a300_267286_5917/",
+      "id": 2856,
       "mp": "yellow",
       "ls": 1
     },
