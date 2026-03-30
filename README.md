@@ -14,10 +14,9 @@ Developer: AF267 (Discord: af267)
 * New reload system to prevent freezing
 * Cleaner and simpler UI
 * Marine vessels in new tab
-### 1.5.1
-* 1.5 patch - fixes aircraft loading for Community Contributor accounts
-* Airbus A300-600 added
-* Cessna R182 RG added
+### 1.5.2
+* Grob G103 Twin Astir added
+* GeoFS 4.0 Beta compatibility theoretically added (either that or I broke the addon)
   
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
