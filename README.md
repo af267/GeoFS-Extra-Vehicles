@@ -20,9 +20,9 @@ Developer: AF267 (Discord: af267)
   
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
-* E190 cockpit by AriakimTaiyo
+* E190 and CRJ900 cockpit by AriakimTaiyo
 * E190 cabin by FlightGear
-* 777x cockpit elements by Spice9
+* 777x and Cessna Citation cockpit elements by Spice9
 ## Information
 This project is under the MIT License. Public usage and copying of the code is ONLY ALLOWED with PROPER CREDIT given to AF267 on behalf of JAaMDG and the JXT Group.
 
