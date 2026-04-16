@@ -14,9 +14,9 @@ Developer: AF267 (Discord: af267)
 * New reload system to prevent freezing
 * Cleaner and simpler UI
 * Marine vessels in new tab
-### 1.5.2
-* Grob G103 Twin Astir added
-* GeoFS 4.0 Beta compatibility theoretically added (either that or I broke the addon)
+### 1.5.3
+* CRJ900 and Cessna Citation reworked and animated
+* April Fools John C. Stennis added
   
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
