@@ -9,9 +9,9 @@
       "ls": 1
     },
     {
-      "name": "Cessna Citation CJ2",
+      "name": "Cessna 550 Citation II",
       "author": "ADSB",
-      "url": "/backend/aircraft/repository/c25a_380019_5367/",
+      "url": "/backend/aircraft/repository/citation_267286_5961/",
       "id": 1021,
       "mp": "green",
       "ls": 0
@@ -35,7 +35,7 @@
     {
       "name": "Bombardier CRJ900",
       "author": "ADSB",
-      "url": "/backend/aircraft/repository/crj900_380019_5389/",
+      "url": "/backend/aircraft/repository/crj900_267286_5960/",
       "id": 1016,
       "mp": "green",
       "ls": 0
@@ -376,6 +376,14 @@
       "name": "Type 052D Missile Destroyer",
       "author": "randompersonintheworld",
       "url": "/backend/aircraft/repository/t052_267286_5719/",
+      "id": 1024,
+      "mp": "yellow",
+      "ls": 0
+    },
+    {
+      "name": "USS John C. Stennis (CVN-74)",
+      "author": "GeoFS & AF267",
+      "url": "/backend/aircraft/repository/the carrier you can turn_380019_2780/",
       "id": 1024,
       "mp": "yellow",
       "ls": 0
