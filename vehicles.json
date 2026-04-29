@@ -511,6 +511,14 @@
       "id": 18,
       "mp": "green",
       "ls": 0
+    },
+     {
+      "name": "Airbus A300",
+      "author": "AirplanesAviation2361",
+      "url": "/backend/aircraft/repository/a300_380019_5466/",
+      "id": 4565,
+      "mp": "whire",
+      "ls": 0
     }
   ]
 }
