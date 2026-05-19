@@ -20,7 +20,7 @@ Developer: AF267 (Discord: af267)
   
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
-* E190 and CRJ900 cockpit by AriakimTaiyo
+* E190, CRJ900, and Boeing 720 cockpit by AriakimTaiyo
 * E190 cabin by FlightGear
 * 777x and Cessna Citation cockpit elements by Spice9
 ## Information
