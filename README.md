@@ -14,9 +14,9 @@ Developer: AF267 (Discord: af267)
 * New reload system to prevent freezing
 * Cleaner and simpler UI
 * Marine vessels in new tab
-### 1.5.3
-* CRJ900 and Cessna Citation reworked and animated
-* April Fools John C. Stennis added
+### 1.5.4
+* Boeing 720 added
+* PA-18 reworked
   
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
