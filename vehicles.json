@@ -83,7 +83,7 @@
     {
       "name": "Piper PA-18 Super Cub",
       "author": "GeoFS & AF267",
-      "url": "/backend/aircraft/repository/pa18_380019_5507/",
+      "url": "/backend/aircraft/repository/pa18_267286_5972/",
       "id": 1,
       "mp": "green",
       "ls": 1
@@ -158,6 +158,14 @@
       "url": "/backend/aircraft/repository/kc135_267286_5727/",
       "id": 2003,
       "mp": "addon",
+      "ls": 1
+    },
+    {
+      "name": "Boeing 720",
+      "author": "Spice_9 & AF267",
+      "url": "/backend/aircraft/repository/b720_267286_5987/",
+      "id": 2003,
+      "mp": "yellow",
       "ls": 1
     },
     {
