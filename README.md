@@ -14,9 +14,11 @@ Developer: AF267 (Discord: af267)
 * New reload system to prevent freezing
 * Cleaner and simpler UI
 * Marine vessels in new tab
-### 1.5.4
-* Boeing 720 added
-* PA-18 reworked
+### 1.5.5
+* Tu-144 added
+* DHC-6 floatplane added
+* A340neo family added
+* AN-124 added
   
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
