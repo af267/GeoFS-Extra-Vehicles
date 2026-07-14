@@ -113,6 +113,22 @@
       "ls": 1
     },
     {
+      "name": "Tupolev Tu-144D",
+      "author": "GeoFS & AF267",
+      "url": "/backend/aircraft/repository/tu144_267286_6039/",
+      "id": 20,
+      "mp": "yellow",
+      "ls": 1
+    },
+    {
+      "name": "de Havilland DHC6 Twin Otter Floatplane",
+      "author": "GeoFS & AF267",
+      "url": "/backend/aircraft/repository/dhc6_267286_6043/",
+      "id": 6,
+      "mp": "green",
+      "ls": 1
+    },
+    {
       "name": "Cessna 337 Super Skymaster",
       "author": "Nightheart",
       "url": "/backend/aircraft/repository/Cessna%20Skymaster%20(Nightheart/Kitten-cat)_380019_4792/",
@@ -262,6 +278,14 @@
       "url": "/backend/aircraft/repository/a35k0_267286_5805/",
       "id": 2973,
       "mp": "green",
+      "ls": 1
+    },
+    {
+      "name": "Antonov An-124-100M",
+      "author": "NS-Studios & AF267",
+      "url": "/backend/aircraft/repository/an124_267286_6014/",
+      "id": 2788,
+      "mp": "yellow",
       "ls": 1
     },
     {
@@ -469,6 +493,30 @@
       "id": 2000,
       "mp": "red",
       "ls": 0
+    },
+    {
+      "name": "Airbus A340-500neo",
+      "author": "SAMU12pp",
+      "url": "/backend/aircraft/repository/A345_267286_6059/",
+      "id": 6006,
+      "mp": "green",
+      "ls": 1
+    },
+    {
+      "name": "Airbus A340-600neo",
+      "author": "SAMU12pp",
+      "url": "/backend/aircraft/repository/A346_267286_5997/",
+      "id": 5998,
+      "mp": "green",
+      "ls": 1
+    },
+    {
+      "name": "Airbus A340-900neo",
+      "author": "SAMU12pp",
+      "url": "/backend/aircraft/repository/A349_267286_6060/",
+      "id": 2153,
+      "mp": "yellow",
+      "ls": 1
     }
   ],
   "Archived": [
