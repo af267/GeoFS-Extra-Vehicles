@@ -153,6 +153,14 @@
       "ls": 1
     },
     {
+      "name": "Boeing 737-800 (wingletless)",
+      "author": "Spice_9 & CP8888",
+      "url": "/backend/aircraft/repository/738nw_267286_6124/",
+      "id": 3054,
+      "mp": "addon",
+      "ls": 1
+    },
+    {
       "name": "Boeing 737-900ER",
       "author": "Spice_9 & Luca",
       "url": "/backend/aircraft/repository/739_380019_5535/",
@@ -451,6 +459,14 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/Proximus Hovercraft_267286_4644/",
       "id": 2000,
+      "mp": "red",
+      "ls": 0
+    },
+    {
+      "name": "Northrop Grumman TR-6A Telos",
+      "author": "AF267",
+      "url": "/backend/aircraft/repository/tr6_267286_6065/",
+      "id": 2310,
       "mp": "red",
       "ls": 0
     },
