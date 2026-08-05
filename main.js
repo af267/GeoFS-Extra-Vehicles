@@ -160,7 +160,7 @@
         const aboutContent = document.createElement("ul");
         aboutContent.className = "geofs-collapsible";
         aboutContent.innerHTML = `
-            <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.5</h4></a>
+            <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.6</h4></a>
             <p>GeoFS Extra Vehicles is a privately maintained addon not associated with GeoFS.</p>
             <p>GeoFS Extra Vehicles is an addon developed by AF267 that adds external vehicles from JAaMDG's JXT Group as well as unreleased projects into the simulator.</p>
             <h5>Multiplayer Models</h5>
@@ -366,7 +366,7 @@
                 <li class="geofs-list-collapsible-item">
                     About
                     <ul class="geofs-collapsible">
-                        <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.5</h4></a>
+                        <a href="https://github.com/af267/GeoFS-Extra-Vehicles" target="_blank" rel="nofollow"><h4>Current Version: 1.6</h4></a>
                         <p>GeoFS Extra Vehicles is a privately maintained addon not associated with GeoFS.</p>
                         <p>GeoFS Extra Vehicles is an addon developed by AF267 that adds external vehicles from JAaMDG's JXT Group as well as unreleased projects into the simulator.</p>
                         <h5>Multiplayer Models</h5>
