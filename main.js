@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GeoFS Extra Vehicles
-// @version      1.5
+// @version      1.6
 // @description  Adds extra vehicles to GeoFS
 // @author       AF267
 // @updateURL    https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/main.js
@@ -21,7 +21,11 @@
     const url = window.location.href;
     const jsonUrl = localStorage.getItem("json_url");
 
-    if ((!url.startsWith("https://www.geo-fs.com/fly?a=") && !url.startsWith("https://www.geo-fs.com/geofs.php?a=")) && savedState) {
+    if ((!url.startsWith("https://www.geo-fs.com/fly?a=")
+         && !url.startsWith("https://www.geo-fs.com/geofs.php?a=")
+         && !url.startsWith("https://beta.geo-fs.com/geofs.php?a=")
+         && !url.startsWith("https://beta.geo-fs.com/fly?a=")
+        ) && savedState) {
 
         const data = JSON.parse(savedState);
         if(data.aircraftUrl == jsonUrl){
@@ -37,7 +41,7 @@
 
     // ALWAYS CHANGE BACK TO THIS:
     // https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/vehicles.json
-    const DATA_URL = "https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/vehicles.json";
+    const DATA_URL = "https://raw.githubusercontent.com/paradoxon-excitat/enlightenment/refs/heads/main/test.json";
 
     const aircraftButton = document.querySelector('button[data-toggle-panel=".geofs-aircraft-list"]');
     if (!aircraftButton) {
@@ -82,6 +86,7 @@
             const li = document.createElement("li");
             li.setAttribute("data-url", item.url);
             li.setAttribute("data-mpid", item.id);
+            if (item.mp === "addon" && item.mpid) { li.setAttribute("data-broadcast-id", item.mpid); }
 
             const itemContent = document.createElement("span");
             const nameText = document.createTextNode(item.name);
@@ -102,13 +107,13 @@
                 // this part is new, comment out if needed
                 else if (item.mp === "addon") {
                     mpIcon.src = "https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/addon.png";
-                    geofs.aircraftList[item.id] = {
-                        id: item.id,
+                    geofs.aircraftList[item.mpid] = {
+                        id: item.mpid,
                         community: 1,
                         multiplayerFiles: "",
                         name: item.name,
                         path: item.url
-                    }
+                    };
                 }
                 // end new part
 
@@ -176,12 +181,52 @@
         extrasPanel.appendChild(aboutSection);
     }
 
-    function loadAircraftFromUrl(baseUrl, mpID, name) {
+    // start new load
+    function installSendUpdatePatch() {
+        if (typeof multiplayer === "undefined" || !multiplayer.sendUpdate) {
+            return false;
+        }
+        if (multiplayer.sendUpdate.__geofsExtrasPatched) {
+            return true;
+        }
+
+        const originalSendUpdate = multiplayer.sendUpdate;
+        const patchedSendUpdate = function () {
+            const instance = geofs.aircraft && geofs.aircraft.instance;
+            const record = instance && instance.aircraftRecord;
+            const broadcastId = instance && instance.geofsExtrasBroadcastId;
+            const ownerId = instance && instance.geofsExtrasBroadcastOwnerId;
+            const realId = record ? record.id : null;
+
+            const shouldSwap = broadcastId && record && ownerId != null && String(record.id) === String(ownerId);
+
+            if (shouldSwap) {
+                record.id = broadcastId;
+            }
+            try {
+                return originalSendUpdate.apply(this, arguments);
+            } finally {
+                if (shouldSwap) {
+                    record.id = realId;
+                }
+            }
+        };
+        patchedSendUpdate.__geofsExtrasPatched = true;
+        multiplayer.sendUpdate = patchedSendUpdate;
+        return true;
+    }
+    const patchInterval = setInterval(() => {
+        if (installSendUpdatePatch()) {
+            clearInterval(patchInterval);
+        }
+    }, 500);
+
+    function loadAircraftFromUrl(baseUrl, mpID, name, broadcastId) {
         $.ajax(baseUrl + "aircraft.json", {
             dataType: "text",
             success: function (jsonText) {
                 var customRecord = {
-                    id: "custom_" + Date.now(),
+                    id: mpID,
                     name: name,
                     fullPath: baseUrl,
                     isPremium: false,
@@ -197,12 +242,12 @@
 
                 if (parsedDefinition) {
                     geofs.aircraft.instance.unloadAircraft();
-                    customRecord.id = mpID;
-                    geofs.aircraft.instance.id = mpID;
                     geofs.aircraft.instance.fullPath = customRecord.fullPath;
                     geofs.aircraft.instance.aircraftRecord = customRecord;
                     geofs.aircraft.instance.init(parsedDefinition, geofs.aircraft.instance.getCurrentCoordinates());
 
+                    geofs.aircraft.instance.geofsExtrasBroadcastId = broadcastId || null;
+                    geofs.aircraft.instance.geofsExtrasBroadcastOwnerId = broadcastId ? mpID : null;
                 } else {
                     ui.notification.show("Failed to parse aircraft.json");
                 }
@@ -212,15 +257,17 @@
             }
         });
     }
+    // end new load
 
     extrasPanel.addEventListener("click", function (e) {
         const li = e.target.closest("li[data-url]");
         if (li) {
             const url = li.getAttribute("data-url");
             const mpID = li.getAttribute("data-mpid");
+            const broadcastId = li.getAttribute("data-broadcast-id");
             const name = li.textContent || li.innerText;
             localStorage.setItem("json_url", url);
-            loadAircraftFromUrl(url, mpID, name);
+            loadAircraftFromUrl(url, mpID, name, broadcastId);
         }
     });
 
