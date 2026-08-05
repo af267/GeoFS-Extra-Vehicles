@@ -5,6 +5,7 @@
       "author": "ADSB",
       "url": "/backend/aircraft/repository/md11_267286_5387/",
       "id": 1023,
+      "mpid": 1023,
       "mp": "green",
       "ls": 1
     },
@@ -13,6 +14,7 @@
       "author": "ADSB",
       "url": "/backend/aircraft/repository/citation_267286_5961/",
       "id": 1021,
+      "mpid": 1021,
       "mp": "green",
       "ls": 0
     },
@@ -21,6 +23,7 @@
       "author": "ADSB",
       "url": "/backend/aircraft/repository/heli_380019_5371/",
       "id": 1025,
+      "mpid": 1025,
       "mp": "green",
       "ls": 0
     },
@@ -29,6 +32,7 @@
       "author": "ADSB",
       "url": "/backend/aircraft/repository/embraer_267286_5681/",
       "id": 1018,
+      "mpid": 1018,
       "mp": "green",
       "ls": 1
     },
@@ -37,6 +41,7 @@
       "author": "ADSB",
       "url": "/backend/aircraft/repository/crj900_267286_5960/",
       "id": 1016,
+      "mpid": 1016,
       "mp": "green",
       "ls": 1
     },
@@ -45,6 +50,7 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/A160_267286_3007/",
       "id": 3007,
+      "mpid": 3007,
       "mp": "addon",
       "ls": 0
     },
@@ -52,7 +58,8 @@
       "name": "Starship SN5",
       "author": "AF267",
       "url": "/backend/aircraft/repository/P180Y_267286_3557/",
-      "id": 3557,
+      "id": 2000,
+      "mpid": 3557,
       "mp": "addon",
       "ls": 0
     },
@@ -61,6 +68,7 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/NK-V_267286_2525/",
       "id": 1014,
+      "mpid": 2525,
       "mp": "addon",
       "ls": 1
     },
@@ -69,6 +77,7 @@
       "author": "AF267 & Luca",
       "url": "/backend/aircraft/repository/P134_267286_5506/",
       "id": 1013,
+      "mpid": 5506,
       "mp": "addon",
       "ls": 0
     },
@@ -77,6 +86,7 @@
       "author": "AF267 & Luca",
       "url": "/backend/aircraft/repository/p19f_267286_5606/",
       "id": 252,
+      "mpid": 5606,
       "mp": "addon",
       "ls": 1
     },
@@ -85,6 +95,7 @@
       "author": "GeoFS & AF267",
       "url": "/backend/aircraft/repository/pa18_267286_5972/",
       "id": 1,
+      "mpid": 1,
       "mp": "green",
       "ls": 1
     },
@@ -93,6 +104,7 @@
       "author": "GeoFS & AF267",
       "url": "/backend/aircraft/repository/il14_380019_5456/",
       "id": 16,
+      "mpid": 16,
       "mp": "green",
       "ls": 1
     },
@@ -101,6 +113,7 @@
       "author": "GeoFS & AF267",
       "url": "/backend/aircraft/repository/777x_267286_5635/",
       "id": 1005,
+      "mpid": 5635,
       "mp": "addon",
       "ls": 1
     },
@@ -109,6 +122,7 @@
       "author": "GeoFS & AF267",
       "url": "/backend/aircraft/repository/182rg_267286_5918/",
       "id": 2,
+      "mpid": 2,
       "mp": "green",
       "ls": 1
     },
@@ -117,6 +131,7 @@
       "author": "GeoFS & AF267",
       "url": "/backend/aircraft/repository/tu144_267286_6039/",
       "id": 2948,
+      "mpid": 2948,
       "mp": "yellow",
       "ls": 1
     },
@@ -125,6 +140,7 @@
       "author": "GeoFS & AF267",
       "url": "/backend/aircraft/repository/dhc6_267286_6043/",
       "id": 6,
+      "mpid": 6,
       "mp": "green",
       "ls": 1
     },
@@ -133,7 +149,8 @@
       "author": "Nightheart",
       "url": "/backend/aircraft/repository/Cessna%20Skymaster%20(Nightheart/Kitten-cat)_380019_4792/",
       "id": 1022,
-      "mp": "yellow",
+      "mpid": 4792,
+      "mp": "addon",
       "ls": 0
     },
     {
@@ -141,6 +158,7 @@
       "author": "Johani",
       "url": "/backend/aircraft/repository/Hang%20Glider%20Belgium_380019_3111/",
       "id": 50,
+      "mpid": 50,
       "mp": "yellow",
       "ls": 0
     },
@@ -149,7 +167,8 @@
       "author": "Spice_9",
       "url": "/backend/aircraft/repository/Sikorsky UH-60 Black Hawk_380019_3068/",
       "id": 2806,
-      "mp": "yellow",
+      "mpid": 3068,
+      "mp": "addon",
       "ls": 1
     },
     {
@@ -157,7 +176,8 @@
       "author": "Spice_9 & CP8888",
       "url": "/backend/aircraft/repository/738nw_267286_6124/",
       "id": 3054,
-      "mp": "addon",
+      "mpid": 3054,
+      "mp": "green",
       "ls": 1
     },
     {
@@ -165,6 +185,7 @@
       "author": "Spice_9 & Luca",
       "url": "/backend/aircraft/repository/739_380019_5535/",
       "id": 1001,
+      "mpid": 5535,
       "mp": "addon",
       "ls": 1
     },
@@ -173,6 +194,7 @@
       "author": "Spice_9 & Luca",
       "url": "/backend/aircraft/repository/a320_267286_5683/",
       "id": 3534,
+      "mpid": 3534,
       "mp": "green",
       "ls": 1
     },
@@ -181,6 +203,7 @@
       "author": "Spice_9 & AF267",
       "url": "/backend/aircraft/repository/kc135_267286_5727/",
       "id": 2003,
+      "mpid": 5727,
       "mp": "addon",
       "ls": 1
     },
@@ -189,7 +212,8 @@
       "author": "Spice_9 & AF267",
       "url": "/backend/aircraft/repository/b720_267286_5987/",
       "id": 2003,
-      "mp": "yellow",
+      "mpid": 5987,
+      "mp": "addon",
       "ls": 1
     },
     {
@@ -197,6 +221,7 @@
       "author": "Spice_9 & AF267",
       "url": "/backend/aircraft/repository/tu204_267286_5777/",
       "id": 242,
+      "mpid": 5777,
       "mp": "addon",
       "ls": 1
     },
@@ -205,6 +230,7 @@
       "author": "Ryan Xu",
       "url": "/backend/aircraft/repository/c650_380019_5390/",
       "id": 1015,
+      "mpid": 5390,
       "mp": "addon",
       "ls": 0
     },
@@ -213,6 +239,7 @@
       "author": "Aero281",
       "url": "/backend/aircraft/repository/A400M_380019_5451/",
       "id": 1010,
+      "mpid": 5451,
       "mp": "addon",
       "ls": 0
     },
@@ -221,7 +248,8 @@
       "author": "Aero281",
       "url": "/backend/aircraft/repository/nEUROn_380019_5452/",
       "id": 2000,
-      "mp": "red",
+      "mpid": 5452,
+      "mp": "addon",
       "ls": 0
     },
     {
@@ -229,7 +257,8 @@
       "author": "Aero281 & AF267",
       "url": "/backend/aircraft/repository/il96_267286_5884/",
       "id": 2951,
-      "mp": "yellow",
+      "mpid": 5884,
+      "mp": "addon",
       "ls": 1
     },
     {
@@ -237,7 +266,8 @@
       "author": "Aero281, AF267, & Luca",
       "url": "/backend/aircraft/repository/il94_267286_5887/",
       "id": 2951,
-      "mp": "yellow",
+      "mpid": 5884,
+      "mp": "addon",
       "ls": 1
     },
     {
@@ -245,6 +275,7 @@
       "author": "Aero281 & AF267",
       "url": "/backend/aircraft/repository/a300_267286_5917/",
       "id": 1009,
+      "mpid": 5917,
       "mp": "addon",
       "ls": 1
     },
@@ -253,6 +284,7 @@
       "author": "MirageModels",
       "url": "/backend/aircraft/repository/72e_380019_5519/",
       "id": 240,
+      "mpid": 5519,
       "mp": "addon",
       "ls": 1
     },
@@ -261,6 +293,7 @@
       "author": "MirageModels",
       "url": "/backend/aircraft/repository/72_380019_5518/",
       "id": 240,
+      "mpid": 5518,
       "mp": "addon",
       "ls": 1
     },
@@ -269,6 +302,7 @@
       "author": "MirageModels",
       "url": "/backend/aircraft/repository/Boeing%20777-200LR_448101_5513/",
       "id": 1004,
+      "mpid": 1004,
       "mp": "yellow",
       "ls": 1
     },
@@ -277,6 +311,7 @@
       "author": "MirageModels",
       "url": "/backend/aircraft/repository/77f_380019_6079/",
       "id": 4402,
+      "mpid": 6079,
       "mp": "addon",
       "ls": 1
     },
@@ -285,6 +320,7 @@
       "author": "NS-Studios",
       "url": "/backend/aircraft/repository/a35k0_267286_5805/",
       "id": 2973,
+      "mpid": 2973,
       "mp": "green",
       "ls": 1
     },
@@ -293,7 +329,8 @@
       "author": "NS-Studios & AF267",
       "url": "/backend/aircraft/repository/an124_267286_6014/",
       "id": 2788,
-      "mp": "yellow",
+      "mpid": 6014,
+      "mp": "addon",
       "ls": 1
     },
     {
@@ -301,6 +338,7 @@
       "author": "coolpilot11 & AF267",
       "url": "/backend/aircraft/repository/a250_267286_5761/",
       "id": 5002,
+      "mpid": 5002,
       "mp": "green",
       "ls": 0
     },
@@ -309,6 +347,7 @@
       "author": "Myklischa",
       "url": "/backend/aircraft/repository/g103_267286_5929/",
       "id": 11,
+      "mpid": 11,
       "mp": "yellow",
       "ls": 0
     }
@@ -319,6 +358,7 @@
       "author": "ADSB",
       "url": "/backend/aircraft/repository/truck_380019_5368/",
       "id": 1027,
+      "mpid": 1027,
       "mp": "green",
       "ls": 0
     },
@@ -327,6 +367,7 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/NeoAD XTerra_267286_4894/",
       "id": 1019,
+      "mpid": 4894,
       "mp": "addon",
       "ls": 0
     },
@@ -335,6 +376,7 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/Steelbird Sagittarius Pulsar_267286_5155/",
       "id": 1026,
+      "mpid": 5155,
       "mp": "addon",
       "ls": 0
     },
@@ -343,7 +385,8 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/metroliner_267286_5772/",
       "id": 1027,
-      "mp": "red",
+      "mpid": 5772,
+      "mp": "addon",
       "ls": 1
     },
     {
@@ -351,7 +394,8 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/genesis_267286_5909/",
       "id": 1027,
-      "mp": "red",
+      "mpid": 5909,
+      "mp": "addon",
       "ls": 1
     },
     {
@@ -359,6 +403,7 @@
       "author": "MirageModels",
       "url": "/backend/aircraft/repository/miata2_380019_5509/",
       "id": 5509,
+      "mpid": 5509,
       "mp": "addon",
       "ls": 0
     },
@@ -367,7 +412,8 @@
       "author": "MirageModels",
       "url": "/backend/aircraft/repository/novabus_267286_5807/",
       "id": 1027,
-      "mp": "red",
+      "mpid": 5807,
+      "mp": "addon",
       "ls": 0
     }
   ],
@@ -377,6 +423,7 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/CMV Probability_267286_5009/",
       "id": 1011,
+      "mpid": 5009,
       "mp": "addon",
       "ls": 0
     },
@@ -385,6 +432,7 @@
       "author": "MirageModels",
       "url": "/backend/aircraft/repository/t055_267286_5682/",
       "id": 1024,
+      "mpid": 5009,
       "mp": "addon",
       "ls": 0
     },
@@ -393,7 +441,8 @@
       "author": "MirageModels",
       "url": "/backend/aircraft/repository/permit_267286_5808/",
       "id": 1003,
-      "mp": "yellow",
+      "mpid": 5808,
+      "mp": "addon",
       "ls": 0
     },
     {
@@ -401,7 +450,8 @@
       "author": "MirageModels",
       "url": "/backend/aircraft/repository/zumwalt_267286_5809/",
       "id": 1024,
-      "mp": "yellow",
+      "mpid": 5809,
+      "mp": "addon",
       "ls": 0
     },
     {
@@ -409,6 +459,7 @@
       "author": "Spice_9",
       "url": "/backend/aircraft/repository/kolkata_380019_5536/",
       "id": 1003,
+      "mpid": 5536,
       "mp": "addon",
       "ls": 0
     },
@@ -417,7 +468,8 @@
       "author": "randompersonintheworld",
       "url": "/backend/aircraft/repository/t052_267286_5719/",
       "id": 1024,
-      "mp": "yellow",
+      "mpid": 5719,
+      "mp": "addon",
       "ls": 0
     },
     {
@@ -425,6 +477,7 @@
       "author": "GeoFS & AF267",
       "url": "/backend/aircraft/repository/the carrier you can turn_380019_2780/",
       "id": 1024,
+      "mpid": 1024,
       "mp": "yellow",
       "ls": 0
     }
@@ -435,6 +488,7 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/X2000BWB_267286_2329/",
       "id": 2000,
+      "mpid": 2000,
       "mp": "red",
       "ls": 0
     },
@@ -443,6 +497,7 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/Northtech UTOPIA_267286_4136/",
       "id": 2000,
+      "mpid": 2000,
       "mp": "red",
       "ls": 0
     },
@@ -451,6 +506,7 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/ARCHANGEL_267286_3974/",
       "id": 2000,
+      "mpid": 2000,
       "mp": "red",
       "ls": 0
     },
@@ -459,6 +515,7 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/Proximus Hovercraft_267286_4644/",
       "id": 2000,
+      "mpid": 2000,
       "mp": "red",
       "ls": 0
     },
@@ -467,6 +524,7 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/tr6_267286_6065/",
       "id": 2310,
+      "mpid": 2310,
       "mp": "red",
       "ls": 0
     },
@@ -475,6 +533,7 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/WK2 testbed_267286_2783/",
       "id": 5193,
+      "mpid": 5193,
       "mp": "yellow",
       "ls": 1
     },
@@ -483,6 +542,7 @@
       "author": "AF267",
       "url": "/backend/aircraft/repository/duplex_267286_5715/",
       "id": 1000,
+      "mpid": 5715,
       "mp": "addon",
       "ls": 1
     },
@@ -491,6 +551,7 @@
       "author": "GeoFS & AF267",
       "url": "/backend/aircraft/repository/a378_267286_5757/",
       "id": 24,
+      "mpid": 24,
       "mp": "yellow",
       "ls": 0
     },
@@ -499,6 +560,7 @@
       "author": "GeoFS & Nightheart",
       "url": "/backend/aircraft/repository/Jetpack_380019_5385/",
       "id": 103,
+      "mpid": 103,
       "mp": "green",
       "ls": 0
     },
@@ -507,6 +569,7 @@
       "author": "[AIRFRANCEHEAVY]",
       "url": "/backend/aircraft/repository/balloon_380019_5647/",
       "id": 2000,
+      "mpid": 2000,
       "mp": "red",
       "ls": 0
     },
@@ -515,6 +578,7 @@
       "author": "SAMU12pp",
       "url": "/backend/aircraft/repository/A345_267286_6059/",
       "id": 6006,
+      "mpid": 6006,
       "mp": "green",
       "ls": 1
     },
@@ -523,6 +587,7 @@
       "author": "SAMU12pp",
       "url": "/backend/aircraft/repository/A346_267286_5997/",
       "id": 5998,
+      "mpid": 5998,
       "mp": "green",
       "ls": 1
     },
@@ -531,6 +596,7 @@
       "author": "SAMU12pp",
       "url": "/backend/aircraft/repository/A349_267286_6060/",
       "id": 2153,
+      "mpid": 2153,
       "mp": "yellow",
       "ls": 1
     }
@@ -541,6 +607,7 @@
       "author": "GeoFS",
       "url": "/backend/aircraft/repository/cub_380019_5480/",
       "id": 1,
+      "mpid": 1,
       "mp": "green",
       "ls": 0
     },
@@ -549,6 +616,7 @@
       "author": "GeoFS",
       "url": "/backend/aircraft/repository/alphajet_380019_5403/",
       "id": 3,
+      "mpid": 3,
       "mp": "green",
       "ls": 0
     },
@@ -557,6 +625,7 @@
       "author": "GeoFS",
       "url": "/backend/aircraft/repository/dc3_380019_5401/",
       "id": 16,
+      "mpid": 16,
       "mp": "green",
       "ls": 0
     },
@@ -565,6 +634,7 @@
       "author": "GeoFS",
       "url": "/backend/aircraft/repository/a380_380019_5402/",
       "id": 1012,
+      "mpid": 1012,
       "mp": "green",
       "ls": 0
     },
@@ -573,6 +643,7 @@
       "author": "GeoFS",
       "url": "/backend/aircraft/repository/Concorde_380019_5450/",
       "id": 20,
+      "mpid": 20,
       "mp": "green",
       "ls": 0
     },
@@ -581,6 +652,7 @@
       "author": "GeoFS",
       "url": "/backend/aircraft/repository/su35_380019_5458/",
       "id": 18,
+      "mpid": 18,
       "mp": "green",
       "ls": 0
     }
