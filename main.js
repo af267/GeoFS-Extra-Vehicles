@@ -41,7 +41,7 @@
 
     // ALWAYS CHANGE BACK TO THIS:
     // https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/vehicles.json
-    const DATA_URL = "https://raw.githubusercontent.com/paradoxon-excitat/enlightenment/refs/heads/main/test.json";
+    const DATA_URL = "https://raw.githubusercontent.com/af267/GeoFS-Extra-Vehicles/refs/heads/main/vehicles.json";
 
     const aircraftButton = document.querySelector('button[data-toggle-panel=".geofs-aircraft-list"]');
     if (!aircraftButton) {
