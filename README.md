@@ -12,8 +12,9 @@ Developer: AF267 (Discord: af267)
 
 ## Version 1.6
 * New reworked multiplayer engine
-### 1.6.0
-* Many existing "yellow" or "red" vehicles now have close-range multiplayer models
+### 1.6.1
+* Experimental FlightGear Fokker F27 added
+* Ashok Leyland bus from Jetbridge Addon added
   
 ## More Credits
 * MD-11 cockpit by FlightGear and SeaBus
