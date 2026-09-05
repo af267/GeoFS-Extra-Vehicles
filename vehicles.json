@@ -16,7 +16,7 @@
       "id": 1021,
       "mpid": 1021,
       "mp": "green",
-      "ls": 0
+      "ls": 1
     },
     {
       "name": "Eurocopter AS365 Dauphin",
@@ -151,7 +151,7 @@
       "id": 1022,
       "mpid": 4792,
       "mp": "addon",
-      "ls": 0
+      "ls": 1
     },
     {
       "name": "Hang Glider Belgium",
@@ -350,6 +350,15 @@
       "mpid": 11,
       "mp": "yellow",
       "ls": 0
+    },
+    {
+      "name": "Fokker F-27 [EXPERIMENTAL]",
+      "author": "Erik Hofman & PH-HWR (Rick)",
+      "url": "/backend/aircraft/repository/f27_267286_6214/",
+      "id": 26,
+      "mpid": 26,
+      "mp": "yellow",
+      "ls": 0
     }
   ],
   "Ground Vehicles": [
@@ -413,6 +422,15 @@
       "url": "/backend/aircraft/repository/novabus_267286_5807/",
       "id": 1027,
       "mpid": 5807,
+      "mp": "addon",
+      "ls": 0
+    },
+    {
+      "name": "Ashok Leyland Tarmac Bus",
+      "author": "Spice_9 & MirageModels",
+      "url": "/backend/aircraft/repository/Bus_267286_5467/",
+      "id": 1027,
+      "mpid": 5467,
       "mp": "addon",
       "ls": 0
     }
